@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    color: #fff;
+}
+
+.container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 22px;
+
+    h1{
+        margin-bottom: 10px;
+        text-align: center;
+        font-weight: 500;
+    }
+}
+
+
+.searchBox{
+    background-color: #161922;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 6px;
+
+    input{
+        background: transparent;
+        border: none;
+        outline: none;
+        width: 80%;
+        color: #fff;
+        font-size: 15px;
+    }
+
+    button{
+        background-color: transparent;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        
+    }
+
+}
+
+.searchBox button:hover{
+    background-color: black;
+}
+
+.details{
+    margin-top: 20px;
+    background-color: black;
+    padding: 20px 25px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    display: none;
+    height: 55vh;
+}
+
+
+
+.profile-image{
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.profile-details{
+    padding: 10px;
+    width: 25rem;
+}
+
+.username{
+    font-size: 18px;
+    color: darkcyan;
+}
+
+.bio{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.stats{
+    background-color: #20232c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: 6px;
+}
+
+.media{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+
+    p{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+    }
+}
